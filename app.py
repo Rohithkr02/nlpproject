@@ -3,7 +3,7 @@ import joblib
 
 model=joblib.load("model.pkl")
 
-labels = {'0': 'addiction', '1': 'anxiety', '2': 'craving','3':'depression','4':'headache','5':'nausea','6':'tolerance','7':'withdraw'}
+labels = {'0': 'addiction', '1': 'anxiety', '2': 'craving','3':'depression','4':'headache','5':'nausea','6':'tolerance','7':'withdrawl,'}
 st.title("Adversive drug reaction prediction")
 
 user_input=st.text_area("enter your text here")
